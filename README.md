@@ -15,15 +15,11 @@ This program is a Student Management System developed in Python that connects to
 3. Run the provided SQL script to create the students table and insert the three initial student records.
 4. Open PowerShell (Windows) or Terminal (macOS) and navigate to the folder containing the Python application (main.py).
 5. Set the PostgreSQL database password as an environment variable by entering:
-     Windows (PowerShell):
-       $env:DB_PASSWORD = "your_postgresql_password"
-     macOS:
-       export DB_PASSWORD="your_postgresql_password" 
+   - Windows (PowerShell): $env:DB_PASSWORD = "your_postgresql_password"
+   - macOS: export DB_PASSWORD="your_postgresql_password" 
 7. Run the application by entering:
-     Windows:
-       python main.py
-     macOS:
-       python3 main.py
+   - Windows: python main.py
+   - macOS: python3 main.py
 9. To use the program:
    - Enter 1 to retrieve and display all students
    - Enter 2 to add a student by providing their first and last name, email, and enrollment date
