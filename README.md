@@ -1,12 +1,15 @@
-COMP 3005 Assignment 3 Question 1
+## COMP 3005 Assignment 3 Question 1
 
 Name: Elisa Rispoli
+
 Student Number: 101343589
 
-Program Description
+### Program Description
+
 This program is a Student Management System developed in Python that connects to a PostgreSQL database using the psycopg library. The program allows users to perform four operations on the students table: retrieve and display all students, add a new student, update an existing student's email address, and delete a student. Users can select these operations through a menu-based interface. The program also includes error handling to manage invalid inputs and database errors.
 
-Building and Running
+### Building and Running
+
 1. Ensure that Python, PostgreSQL, and the psycopg library are installed.
 2. Open pgAdmin and create a PostgreSQL database named student_db.
 3. Run the provided SQL script to create the students table and insert the three initial student records.
@@ -28,4 +31,4 @@ Building and Running
    - Enter 4 to delete a student using their student ID
    - Enter 5 to exit the program
 
-Video Demonstration
+### Video Demonstration
