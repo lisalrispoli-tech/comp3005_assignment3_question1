@@ -28,3 +28,5 @@ This program is a Student Management System developed in Python that connects to
    - Enter 5 to exit the program
 
 ### Video Demonstration
+
+https://youtu.be/2IQrGyRk19Y
